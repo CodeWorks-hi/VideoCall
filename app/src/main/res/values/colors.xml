@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Palette -->
+    <color name="primary_200">#81D4FA</color>
+    <color name="primary_500">#03A9F4</color>
+    <color name="primary_700">#0288D1</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Surfaces & Cards -->
+    <color name="surface">#F5F5F5</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <!-- Text & Icons -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_background">#000000</color>
+    <color name="on_background_dark">#FFFFFF</color>
+
+    <!-- Accent / Secondary -->
+    <color name="secondary_200">#FFCDD2</color>
+    <color name="secondary_500">#F44336</color>
+    <color name="secondary_700">#D32F2F</color>
+
+    <!-- Error, Warning, Info -->
+    <color name="error">#B00020</color>
+    <color name="warning">#FFA000</color>
+    <color name="info">#1976D2</color>
+
+    <color name="gray_300">#E0E0E0</color>
+
+</resources>

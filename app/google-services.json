@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "486158170661",
+    "firebase_url": "https://silmedy-23a1b-default-rtdb.firebaseio.com",
+    "project_id": "silmedy-23a1b",
+    "storage_bucket": "silmedy-23a1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486158170661:android:b4917157549c0562cfddcc",
+        "android_client_info": {
+          "package_name": "com.example.silmedy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486158170661-15celtvpgth3o8m5c82j96uob635db36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.silmedy",
+            "certificate_hash": "f93024a944b169ef34d0f2eaeee7050ea592b1e8"
+          }
+        },
+        {
+          "client_id": "486158170661-80gecmdvvcg95i204gu7equ4tf2djoh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_GSFnmPfbgB6LgME4R1A861yFyDgV69k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486158170661-80gecmdvvcg95i204gu7equ4tf2djoh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486158170661:android:c0c15b3d5c271af6cfddcc",
+        "android_client_info": {
+          "package_name": "com.silmedy.videocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486158170661-80gecmdvvcg95i204gu7equ4tf2djoh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_GSFnmPfbgB6LgME4R1A861yFyDgV69k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486158170661-80gecmdvvcg95i204gu7equ4tf2djoh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

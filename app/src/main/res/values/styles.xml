@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VideoCall" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- API 27 속성, lint 경고만 무시 -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+    </style>
+    <style name="Theme.VideoCall" parent="Base.Theme.VideoCall" />
+</resources>
