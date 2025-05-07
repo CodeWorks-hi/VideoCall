@@ -114,13 +114,18 @@ public class LoginActivity extends AppCompatActivity {
                             .apply();
 
                     // ─── 4) fcm_token 신규 발급 시 서버 등록 ─────────────
-                    if (fcmToken.isEmpty()) {
+                    if (fcmToken == null || fcmToken.isEmpty() || fcmToken.equals("null")) {
                         FirebaseMessaging.getInstance().getToken()
                                 .addOnCompleteListener(task -> {
                                     if (task.isSuccessful()) {
+                                        Log.e(TAG, "🔥 FCM 토큰 발급: " + task.getResult());
                                         postFcmToken(email, access, task.getResult());
+                                    } else {
+                                        Log.e(TAG, "🔥 FCM 토큰 발급 실패", task.getException());
                                     }
                                 });
+                    } else {
+                        Log.e(TAG, "기존 FCM 토큰 사용: " + fcmToken);
                     }
 
                     // ─── 5) 로그인 후 이동 결정 ─────────────────────────
